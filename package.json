@@ -1,13 +1,13 @@
 {
-  "name": "insomnia-plugin-json-encode-string",
+  "name": "insomnia-plugin-json-encode-file",
   "version": "1.0.0",
   "author": "Zach Johnson <zach@zjohnson.us>",
   "description": "Insomnia plugin for inject contents of a file as a json encoded string",
   "license": "MIT",
-  "repository": "https://github.com/muleycharge/insomnia-plugin-json-encode-string",
+  "repository": "https://github.com/muleycharge/insomnia-plugin-json-encode-file",
   "main": "main.js",
   "insomnia": {
-    "name": "json-encode-string",
+    "name": "json-encode-file",
     "description": "Inject contents of a file as a json encoded string"
   }
 }
