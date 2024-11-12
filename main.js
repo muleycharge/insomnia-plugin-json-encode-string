@@ -6,11 +6,11 @@ const fs = require('fs');
 module.exports.templateTags = [{
     name: "encodeFileToField",
     displayName: "JSON Encode Text File",
-    discription: "Encode file contents for JSON field",
+    description: "Encode file contents for JSON field",
     args:[
         {
             displayName: "path",
-            discription: "Raw text input from a file",
+            description: "Raw text input from a file",
             type: "file",
         }
     ],
